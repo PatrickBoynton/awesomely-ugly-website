@@ -1,0 +1,19 @@
+nav{
+  border: 15px dashed dodgerblue;
+  background-color: firebrick;
+  border-radius: 60px;
+  box-shadow: inset 100px 50px 4px 2px rgba(0, 255, 0, .2);
+  color: magenta;
+}
+nav > h1{
+  color: blue;
+  font-size: 5.8rem;
+  margin: 4rem 2rem;
+}
+ul {
+  display: flex;
+  page-break-after: 5;
+}
+li{
+  font-size: 30px;
+}
