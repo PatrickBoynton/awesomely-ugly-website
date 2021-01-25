@@ -49,6 +49,13 @@ p{
   margin: 2rem;
   word-wrap: none;
 }
+button{
+  padding: 5px 10px;
+  border: 8px double pink;
+  color: gold;
+  background-color: #242424;
+  cursor: crosshair;
+}
 .test{
   margin: 2rem;
   border: 15px solid cornflowerblue;
