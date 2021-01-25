@@ -1,3 +1,6 @@
+body{
+  background-color: cyan;
+}
 nav{
   border: 15px dashed dodgerblue;
   background-color: firebrick;
