@@ -38,10 +38,14 @@ main {
 #clip{
   clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
   transform: rotate(35deg);
+  -webkit-animation: rotation 2s infinite;
+  animation: rotation 2s infinite;
 }
 #clip2{
   clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
   transform: rotate(-145deg);
+  webkit-animation: rotation 2s infinite;
+  animation: rotation 2s infinite;
 }
  main img {
   margin: 2rem;
@@ -85,4 +89,14 @@ table{
   margin: 0 auto;
   font-size: 20px;
   border-top: 4px solid crimson;
+}
+
+@keyframes rotation {
+  0%{
+    transform: rotate(35deg);
+  }
+
+  100%{
+    transform: rotate(390deg);
+  }
 }
