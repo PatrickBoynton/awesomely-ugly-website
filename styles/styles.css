@@ -51,6 +51,16 @@ p{
 }
 .test{
   margin: 2rem;
-  border: 5px solid cornflowerblue;
+  border: 15px solid cornflowerblue;
   background-color: burlywood;
+}
+.fun{
+  transform: rotate(15deg);
+  border: 20px double yellow;
+  background-color: #24243344;
+  text-align: center;
+}
+span{
+  background-color: lavender;
+  color: orange;
 }
