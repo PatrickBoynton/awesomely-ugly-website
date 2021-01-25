@@ -20,3 +20,19 @@ ul {
 li{
   font-size: 30px;
 }
+main {
+  text-align: center;
+  margin: 5px 200px;
+  border: 7px solid limegreen;
+  background: linear-gradient(to left, navy, greenyellow);
+  box-shadow: 0 12px 0 rgba(0, 0, 0, .5);
+  color: khaki;
+}
+img{
+  margin: 2rem;
+}
+p{
+  display: inline;
+  margin: 2rem;
+  word-wrap: none;
+}
