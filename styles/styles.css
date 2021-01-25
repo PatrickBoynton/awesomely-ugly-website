@@ -1,8 +1,9 @@
 body{
   background-color: cyan;
+  cursor: wait;
 }
 ::selection{
-  background-color: pink;
+  background-color: lightblue;
   color: navy;
   border-radius: 6px;
 }
@@ -75,6 +76,10 @@ button{
 span{
   background-color: lavender;
   color: orange;
+}
+h2{
+  text-align: right;
+  color: forestgreen;
 }
 table{
   margin: 0 auto;
