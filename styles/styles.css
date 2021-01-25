@@ -5,7 +5,7 @@ nav{
   border: 15px dashed dodgerblue;
   background-color: firebrick;
   border-radius: 60px;
-  box-shadow: 100px 50px 4px 2px rgba(0, 255, 0, .2);
+  box-shadow: inset 100px 50px 4px 2px rgba(0, 255, 0, .2);
   color: magenta;
 }
 nav > h1{
@@ -37,12 +37,19 @@ main {
   clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
   transform: rotate(-145deg);
 }
-img{
+ main img {
   margin: 2rem;
   float: left;
+}
+section img {
+  margin: 15px;
 }
 p{
   display: inline;
   margin: 2rem;
   word-wrap: none;
+}
+.test{
+  margin: 2rem;
+  border: 5px solid cornflowerblue;
 }
