@@ -1,6 +1,11 @@
 body{
   background-color: cyan;
 }
+::selection{
+  background-color: pink;
+  color: navy;
+  border-radius: 6px;
+}
 nav{
   border: 15px dashed dodgerblue;
   background-color: firebrick;
@@ -70,4 +75,9 @@ button{
 span{
   background-color: lavender;
   color: orange;
+}
+table{
+  margin: 0 auto;
+  font-size: 20px;
+  border-top: 4px solid crimson;
 }
